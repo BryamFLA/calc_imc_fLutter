@@ -18,8 +18,7 @@ class EditText extends StatelessWidget {
           labelStyle: const TextStyle(color: Colors.white, fontSize: 15),
           labelText: labelText,
           enabledBorder: OutlineInputBorder(
-              borderSide:
-                  const BorderSide(color: Color.fromARGB(200, 40, 40, 40)),
+              borderSide: const BorderSide(color: Colors.white),
               borderRadius: BorderRadius.circular(20)),
           focusedBorder: OutlineInputBorder(
               borderSide: const BorderSide(color: Colors.white, width: 2),
